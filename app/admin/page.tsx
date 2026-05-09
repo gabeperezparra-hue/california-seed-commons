@@ -1,11 +1,10 @@
-export default function AdminPage() {
+export default function AdminLogin() {
   return (
-    <div className="max-w-4xl mx-auto px-6 py-12">
-      <h1 className="text-4xl font-medium mb-8">Admin Dashboard</h1>
-      <p className="text-stone-600">Login: CAseed / seed123 (placeholder for now)</p>
-      <div className="mt-8 p-8 border text-center">
-        Full admin will go here (inventory + requests)
-      </div>
+    <div className="max-w-md mx-auto mt-20 p-8 border bg-white">
+      <h2 className="text-2xl font-medium mb-6">Admin Login</h2>
+      <p className="text-stone-600">Username: <strong>CAseed</strong></p>
+      <p className="text-stone-600">Password: <strong>seed123</strong></p>
+      <p className="mt-8 text-sm text-stone-500">(This is placeholder — full login coming soon)</p>
     </div>
   );
 }
