@@ -2,8 +2,7 @@
 
 Community seed request website.
 
-## Setup
-1. Create Supabase project
-2. Add environment variables
-3. `npm install`
-4. `npm run dev`
+## How to run locally
+1. `npm install`
+2. Create `.env.local` with Supabase keys
+3. `npm run dev`
