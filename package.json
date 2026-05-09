@@ -1,0 +1,15 @@
+{
+  "name": "california-seed-commons",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "15.0.0",
+    "react": "19.0.0-rc",
+    "react-dom": "19.0.0-rc",
+    "@supabase/supabase-js": "^2.45.0"
+  }
+}
